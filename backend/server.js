@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { connectDB } from './config/dbConnection.js';
-import notesRouter from './routes/notes.js';
+import notesRouter from './routes/notes.route.js';
 import path from 'path';
 
 
